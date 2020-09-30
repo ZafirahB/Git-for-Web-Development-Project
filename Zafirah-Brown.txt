@@ -1,0 +1,142 @@
+https://codepen.io/ZafirahB/pen/ZEWZjNw / css+HTML codepen: https://codepen.io/ZafirahB/pen/zYqQzeb
+
+Questions and answers to Sweet eats bakery:
+ border-radius: 10px;
+
+*/
+img. {border-radius: 10px;}
+
+.content-row {
+  display: flex;
+}
+
+.content-row div {
+  /*======= create a margin propery.  Set the value to 20px */
+}
+margin: 20px auto;
+.container {
+  /*======= create a width property. Set the value to 600px */
+  margin: 0px auto;
+  width: 600px;
+}
+
+.container header nav a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+   /*======= create a background property. Set the value to #F87B99 */
+  
+}
+Body {
+background:#F87B99; }
+
+.container header nav a:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+}
+
+/*======= Create a selector for the about section to have the following styles:
+  margin-top: 20px;
+*/
+.about-section {margin-top: 20px;}
+.contact-section {
+  border-top: 1px dashed black;
+  padding: 20px 0;
+}
+
+.contact-section h2 {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+/*======= Create a selector for the address tag in the contact-section class to have the following styles:
+   line-height: 2;
+*/
+.contact-section { <address>
+Line-height: 2;}
+
+footer {
+  width: 100%;
+  background: #F87B99;
+  border-top: 1px dashed white;
+}
+
+footer .footer-content { 
+  margin: 0 auto; 
+  /*======= create a width property. Set the value to 600px */
+  width:600px
+}
+
+footer .footer-content h3 {
+  padding: 0;
+  margin: 20px 0;
+}
+
+footer nav {
+  display: flex;
+}
+
+/*======= Create a selector for the anchor tag in the footer to have the following styles:
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+*/
+footer a{margin: 10px;
+  color: black;
+  text-decoration: underline;}
+
+footer nav a:first-child {
+  margin-left: 0;
+}
+
+/*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
+  color: white;
+*/
+footer a:hover {  color: white;}
+footer .footer-content .copyright {
+  padding: 20px 0;
+   /*======= center the text here */
+
+Questions for html css practice:
+ 1. What is Semantic HTML? Semantic HTML is Html tags that describe the meaning of the tag ina human readable way. 
+    2. What is HTML used for? It is used to create pages on the world wide web.
+    3. What is an attribute and where do we put it? Attributes add additional characteristics to properties and are placed in the start tag.
+    4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is to label the header it should only be used once per page. 
+    5. Name two tags that have required attributes <a> and <img>
+    6. What do we put in the head of our HTML document?  Metadata
+    7. What is an id? it specifies a unique id for an element. 
+    8. What elements can I add an id to? Usually ones that point to a style in the stylesheet.
+    9. How many times can I use the same id on a page? once
+    10. What is a class? it identifies HTML elements.
+    11. What elements can I add a class to? any elements.
+    12. How many times can I use the same class on a page? you are only limited by the attributes value
+    13. How do I get my link to open in a new tab? by add a target_blank to redirect it.
+    14. What is the alt attribute in the image tag used for? specifies an alternate text for an image
+    15. How do I reference an id? # Id element.
+    16. What is the difference between a section and a div a section labels the group a div can be used in a section to break up lines. 
+    17. What is CSS used for? to style a webpage. 
+    18. How to we select an element? Example - every h2 on the page .h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one is that an ID can be used to identify one element, whereas a class can be used to identify more than one. ID: = 'myHeader' class= 'city'
+    20. How do we select classes in CSS? . (name of class)
+    21. How do we select a p element with a single class of “human””? . human
+    22. What is a parent child selector? When would this be useful? a parent selector is the original element and elements below it are child selectors. This is helpful to know how the first element will influence the child element.
+    23. How do you select all links within a div with the class of sidebar? .div sidebar
+    24. What is a pseudo selector? pseudo-class is a keyword added to a selector that specifies a special state of the selected element
+    25. What do we use the change the spacing between lines? with the line-height attribute
+    26. What do we use to change the spacing between letters? The letter-spacing attribute an em
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black? border ;1px and padding
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? --!
+    31. How do I find out what file I am in, when I am using the command line? dir
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm -file name. You have to be careful because there is no confirmation nor way to restore.
+    34. Why should I use version control? to be able to check old versions that were worked on. 
+    35. How often should I commit to github? any time changes are made. 
+    36. What is the command we would use to push our repo up to github? git push -u origin
+    37. Walk me through Lambda's git flow. 
+fork project, clone project, create new branch, add changes, commit, push saved changes back up into cloud and then submit pull request. 
